@@ -5,9 +5,9 @@ metadata:
 spec:
   acme:
     email: muitaconta.com.br@gmail.com
-    server: https://acme-v02.api.letsencrypt.org/directory
+    server: https://acme-staging-v02.api.letsencrypt.org/directory
     privateKeySecretRef:
-      name: letsencrypt-prod
+      name: letsencrypt-staging-private-key
     solvers:
     - http01:
         ingress:
