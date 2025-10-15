@@ -11,3 +11,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main
 
 depois cria o arquivo argocd-ingress.yaml, e aponta o dominio para o ipPublico
 
+# 4. instalar o cert-manager
+kubectl apply -f https://github.com/cert-manager/cert-manager/releases/latest/download/cert-manager.yaml
+
+
